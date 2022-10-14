@@ -27,11 +27,12 @@ body {
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
     background-color: hsl(216, 12%, 8%);
-    margin: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 1.5rem;
+    height: calc(vh - 1px);
 }
 
 button {
@@ -47,6 +48,7 @@ p {
     padding: 2rem;
     border-radius: 1.5rem;
     max-width: 450px;
+    margin-top: 5rem;
 }
 
 .main-container img {
@@ -159,7 +161,7 @@ p {
     font-size: 11px;
     text-align: center; 
     color: #fff;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .attribution a { color: hsl(228, 45%, 44%); }
